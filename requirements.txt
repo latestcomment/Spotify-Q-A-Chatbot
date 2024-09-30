@@ -1,0 +1,7 @@
+pandas
+streamlit
+deepeval
+langchain
+langchain_openai
+langchain_chroma
+python-dotenv

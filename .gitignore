@@ -1,6 +1,7 @@
 **venv**
 **pycache**
 **.ipynb_checkpoints**
+**cache**
 
 src/chroma_db
 src/data
