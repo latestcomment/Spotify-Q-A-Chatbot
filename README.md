@@ -4,6 +4,8 @@
   <img src="assets/image.png" style="width: 80%;"/>
 </p>
 
+This project is a Q&A Chatbot for [Spotify Reviews data](https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews/)
+
 ### Stacks 
 <table>
   <tr>
@@ -28,6 +30,9 @@
   </tr>
 </table>
 
+This project is a Q&A Chatbot for Spotify Reviews data.
+[source](https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews/)
+
 ### Setting up environment
 
 Install necessary libraries / packages in your environment
@@ -42,7 +47,7 @@ OPENAI_API_KEY=<your-api-key>
 
 ### Getting started
 
-Go to directory `src/`
+Go to directory `src/`, and be sure to have the data [`SPOTIFY_REVIEWS.CSV`](https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews/) in directory `src/data`.
 
 Initialize knowledge base `Chroma DB`. <br>
 This step is run once, for populating the knowledge base with dataset. <br>
