@@ -30,6 +30,8 @@ This project is a Q&A Chatbot for [Spotify Reviews data](https://www.kaggle.com/
   </tr>
 </table>
 
+*note: videos and images are in `assets` directory.*
+
 ### Setting up environment
 
 Install necessary libraries / packages in your environment
