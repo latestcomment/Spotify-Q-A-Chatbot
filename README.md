@@ -30,9 +30,6 @@ This project is a Q&A Chatbot for [Spotify Reviews data](https://www.kaggle.com/
   </tr>
 </table>
 
-This project is a Q&A Chatbot for Spotify Reviews data.
-[source](https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews/)
-
 ### Setting up environment
 
 Install necessary libraries / packages in your environment
@@ -40,7 +37,7 @@ Install necessary libraries / packages in your environment
 pip install -r requirements.txt
 ```
 
-Input API key(s) in `.env` file, this project is using `OpenAI` API key.
+Input API key(s) in `src/.env` file, this project is using `OpenAI` API key.
 ```
 OPENAI_API_KEY=<your-api-key>
 ```
@@ -74,21 +71,21 @@ for evaluating this RAG System, `DeepEval` will be used. <br>
 
 Metric: `AnswerRelevancyMetric`
 
-Testing questions and ground truths:
+Testing questions and expected answers:
 1. **Question**: *What are the specific features or aspects that users appreciate the most in our application?* <br>
-**Ground truth**: <br>
+**Expected answer**: <br>
 *"Users frequently praise the intuitive UI design, extensive variety of music choices, and seamless user experience."*
 ---
 1. **Question**: *In comparison to our application, which music streaming platform are users most likely to compare ours with?* <br>
-**Ground truth**: <br>
+**Expected answer**: <br>
 *"Users often draw comparisons with Pandora when discussing our application's features and functionalities."*
 ---
 1. **Question**: *What are the primary reasons users express dissatisfaction with Spotify?* <br>
-**Ground truth**: <br>
+**Expected answer**: <br>
 *"Common concerns among dissatisfied users include occasional playback issues, difficulties in discovering new music, and a desire for a more personalized recommendation system."*
 ---
 1. **Question**: *Can you identify emerging trends or patterns in recent user reviews that may impact our product strategy?* <br>
-**Ground truth**: <br>
+**Expected answer**: <br>
 *"Recent reviews highlight an increasing demand for enhanced social sharing features, indicating a potential opportunity for improving the platform's community engagement."*
 
 to run the evaluation with threshold = 0.5
